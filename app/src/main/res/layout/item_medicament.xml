@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvCodeCIS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Code_CIS: " />
+
+    <TextView
+        android:id="@+id/tvDenomination"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Denomination: "
+        />
+
+
+    <TextView
+        android:id="@+id/tvFormePharmaceutique"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Forme_pharmaceutique :"
+        />
+
+    <TextView
+       android:id="@+id/tvVoieDadministration"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       android:text="Voies_dadministration :"
+        />
+
+
+    <TextView
+        android:id="@+id/Titulaire"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Titulaire:"
+        />
+
+    <TextView
+        android:id="@+id/SatutAdministratif"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Statut_administratif"
+        />
+
+    <TextView
+        android:id="@+id/NombresMolecules"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Nombres_molecules" />
+
+</LinearLayout>
